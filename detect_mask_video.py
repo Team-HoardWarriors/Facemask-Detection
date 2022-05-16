@@ -81,7 +81,7 @@ maskNet = load_model("mask_detector.model")
 
 # initialize the video stream
 print("""**********************************************************************************************************************************************
-*                                                  FaceMask Detection                                                                        *                 
+*                                                  Facemask Detection                                                                        *                 
 **********************************************************************************************************************************************
 *   __    __                                      __        __       __                                __                                    *
 *   /  |  /  |                                    /  |      /  |  _  /  |                              /  |                                  *
@@ -133,7 +133,7 @@ while True:
 		cv2.rectangle(frame, (startX, startY), (endX, endY), color, 2)
 
 	# show the output frame
-	cv2.imshow("FaceMask Detection By: Hoard Warriors", frame)
+	cv2.imshow("Facemask Detection By: Hoard Warriors", frame)
 	key = cv2.waitKey(1) & 0xFF
 
 	# if the `q` key was pressed, break from the loop
