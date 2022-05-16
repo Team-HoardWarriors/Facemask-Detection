@@ -17,25 +17,52 @@
                                                                                                                                      
                                                                                                                                      
 
-Installation
+Step by step Facemask Detection Installation Guide
 
-Clone the repo
-$ git clone https://github.com/Team-HoardWarriors/FaceMaskDetection.git
-Change your directory to the cloned repo
-$ cd FaceMaskDetection
-Now, run the following command in your Terminal/Command Prompt to install the libraries required
-$ pip3 install -r requirements.txt
+Requirement:
+- Windows 10
+- Webcam
 
-NOTE:
-if you have some error please installing manual of the following using PIP..
+Please follow these steps:
+1. Download and install Python
+Download : https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
 
-$ pip install tensorflow
-$ pip install keras
-$ pip install imutils
-$ pip install numpy
-$ pip install opencv-python
-$ pip install matplotlib
-$ pip install scipy
+2. Download python code from github
+https://github.com/Team-HoardWarriors/Facemask-Detection
+or
+https://www.mediafire.com/file/nhpe00zfpu9kq4f/Facemask-Detection.rar/file
 
-and run the program:
-python detect_mask_video.py
+3. Upgraded PIP
+ $ python -m pip install -–upgrade pip
+
+4. Install Libraries
+	$ pip install -r requirements.txt
+
+" Install Manually for some error ""
+
+Install tensorflow
+	$ pip install tensorflow
+
+Install Keras
+	$ pip install keras
+
+Install imutils
+	$ pip install imutils
+
+Install Numpy
+	$ pip install numpy
+
+Install OpenCV-Python
+	$ pip install opencv-python
+
+Install Matplotlib
+	$ pip install matplotlib
+
+Install Scipy
+	$ pip install scipy
+
+
+
+Go to folder Facemask-Detection
+and run the program
+$ python detect_mask_video.py
